@@ -19,7 +19,7 @@ linters-settings:
   misspell:
     locale: US
   goimports:
-    local-prefixes: github.com/Shopify/sarama
+    local-prefixes: github.com/ihezebin/sarama
   gocritic:
     enabled-tags:
       - diagnostic

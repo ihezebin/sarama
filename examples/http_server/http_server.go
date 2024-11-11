@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Shopify/sarama"
+	"github.com/ihezebin/sarama"
 )
 
 var (

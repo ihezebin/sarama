@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Shopify/sarama"
+	"github.com/ihezebin/sarama"
 	"go.opentelemetry.io/otel/exporters/stdout"
 )
 

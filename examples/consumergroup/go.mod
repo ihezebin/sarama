@@ -1,7 +1,7 @@
-module github.com/Shopify/sarama/examples/consumer
+module github.com/ihezebin/sarama/examples/consumer
 
 go 1.16
 
-replace github.com/Shopify/sarama => ../../
+replace github.com/ihezebin/sarama => ../../
 
-require github.com/Shopify/sarama v1.27.0
+require github.com/ihezebin/sarama v1.27.0

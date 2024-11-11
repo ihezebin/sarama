@@ -14,10 +14,9 @@ import (
 	gosync "sync"
 	"time"
 
+	"github.com/ihezebin/sarama"
+	"github.com/ihezebin/sarama/tools/tls"
 	"github.com/rcrowley/go-metrics"
-
-	"github.com/Shopify/sarama"
-	"github.com/Shopify/sarama/tools/tls"
 )
 
 var (

@@ -10,7 +10,7 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/Shopify/sarama"
+	"github.com/ihezebin/sarama"
 )
 
 // Sarama configuration options
@@ -153,7 +153,7 @@ func (consumer *Consumer) ConsumeClaim(session sarama.ConsumerGroupSession, clai
 	// NOTE:
 	// Do not move the code below to a goroutine.
 	// The `ConsumeClaim` itself is called within a goroutine, see:
-	// https://github.com/Shopify/sarama/blob/master/consumer_group.go#L27-L29
+	// https://github.com/ihezebin/sarama/blob/master/consumer_group.go#L27-L29
 	for message := range claim.Messages() {
 		log.Printf("Message claimed: value = %s, timestamp = %v, topic = %s", string(message.Value), message.Timestamp, message.Topic)
 		session.MarkMessage(message, "")
